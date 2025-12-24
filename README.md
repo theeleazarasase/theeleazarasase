@@ -1,59 +1,64 @@
 <h1 align="center">Hi, I'm Eleazar 👋</h1>
 <p align="center">
   Mechanical Engineering (Honors) + Computer Science @ Michigan State University<br/>
-  Robotics • Test & Validation • Simulation • Manufacturing Systems
+  Motion systems • Mechatronics • Test & validation • Robotics
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/theeleazarasase/">LinkedIn</a> •
-  <a href="asaseele@msu.edu">Email</a> •
-  <a href="https://github.com/theeleazarasase?tab=repositories">Repositories</a>
+  <a href="asaseele">Email</a> •
+  <a href="https://github.com/theeleazarasase?tab=repositories">Projects</a>
 </p>
 
 ---
 
-##  What I'm building
-- **MorphoBench / Pentimento Rig-1**: open benchmark kit for compliant & soft robotics with repeatable protocols  
-- **Motion quality tooling**: Python workflows for SVAJ and jerk metrics (clean plots + report-ready outputs)  
-- **Hardware validation**: fixtures, calibration artifacts, sensor integration, and test plans that are reproducible
+##  What I build
+I build **mechanical systems you can measure**: motion mechanisms, embedded sensing, and robotics prototypes with
+clear test plans and report-ready results.
 
-##  Mission
-I turn cool demos into **comparable results**.  
-My focus is **repeatability**: same setup, same procedure, same reporting format.
-
----
-
-##  Featured Projects
-###  MorphoBench (Benchmark Kit for Compliant & Soft Robotics)
-- Printable fixtures + task boards + calibration parts  
-- Standardized protocols + scoring rubric  
-- Public results format for cross-lab comparison
-
-Repo: *(link once created)*
-
-### ⚙️ Shaft Control + Encoder Data Logging
-- Encoder-based measurement + real-time logging  
-- Position/velocity/acceleration/jerk analysis  
-- Exportable datasets for modeling and reporting
-
- Repo: *(link once created)*
-
-### Python Analysis Tooling
-- Data cleaning + visualization
-- Repeatable plots, metrics tables, and report-ready outputs
-
- Repo: *(link)*
+## Current Focus
+- Motion quality: **SVAJ + jerk** metrics, optimization, and repeatable plots  
+- Embedded reliability: **position persistence** and recovery after power loss  
+- Soft robotics: electro-actuation prototypes and grasp testing (in progress)
 
 ---
 
-## Tech Stack
+## Featured Projects
+
+### ⚙️ Geneva Jerk Optimization (OTG + SVAJ Metrics)
+Reducing vibration risk by optimizing Geneva motion profiles using jerk-based evaluation.
+- Computes position/velocity/acceleration/jerk and compares profiles
+- Generates repeatable plots and summary metrics
+- Includes assumptions, failure modes, and next experiments
+
+Repo: https://github.com/theeleazarasase/geneva-jerk-optimization
+
+### 🧭 Encoder Position Memory (Power-Loss Recovery)
+Embedded system that remembers end-effector position after power is cut and restores state on restart.
+- Encoder reading + state tracking
+- Non-volatile save strategy + boot-time recovery logic
+- Test procedure for drift, reset edge cases, and validation
+
+ Repo: https://github.com/theeleazarasase/encoder-position-memory
+
+### 🫧 Soft Robot Electro-Actuated Gripper (WIP)
+A soft robot that moves when voltage is induced and attempts a pick operation.
+- Prototype notes, materials, and actuator geometry
+- Experimental plan and metrics for grasp success and repeatability
+- Video logs and iteration history (as work progresses)
+
+ Repo: https://github.com/theeleazarasase/soft-robot-electroactuated-gripper
+
+---
+
+## 🧰 Tech Stack
 **Mechanical:** SolidWorks, AutoCAD, ANSYS Fluent  
-**Hardware:** Arduino, encoders, stepper drivers, pneumatics + sensors  
+**Embedded:** Arduino, encoders, stepper drivers, sensors  
 **Software:** Python, Git/GitHub, Excel (tables/charts)
 
 ---
 
-## Open to
-Internships and projects in: **robotics**, **test & validation**, **simulation**, **product development**, and **manufacturing engineering**.
+## 📌 Open to
+Internships and projects in **mechatronics**, **robotics**, **test & validation**, and **mechanical design**.
 
-<p align="center"><i>Build it. Test it. Document it. Make it reproducible.</i></p>
+<p align="center"><i>Measure it. Plot it. Improve it. Make it repeatable.</i></p>
