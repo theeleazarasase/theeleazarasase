@@ -25,7 +25,7 @@ clear test plans and report-ready results.
 
 ## Featured Projects
 
-### ⚙️ Geneva Jerk Optimization (OTG + SVAJ Metrics)
+###  Geneva Jerk Optimization (OTG + SVAJ Metrics)
 Reducing vibration risk by optimizing Geneva motion profiles using jerk-based evaluation.
 - Computes position/velocity/acceleration/jerk and compares profiles
 - Generates repeatable plots and summary metrics
@@ -33,15 +33,15 @@ Reducing vibration risk by optimizing Geneva motion profiles using jerk-based ev
 
 Repo: https://github.com/theeleazarasase/geneva-jerk-optimization
 
-### 🧭 Encoder Position Memory (Power-Loss Recovery)
+###  Mechatronic Actuator Controller
 Embedded system that remembers end-effector position after power is cut and restores state on restart.
 - Encoder reading + state tracking
 - Non-volatile save strategy + boot-time recovery logic
 - Test procedure for drift, reset edge cases, and validation
 
- Repo: https://github.com/theeleazarasase/encoder-position-memory
+ Repo: https://github.com/theeleazarasase/mechatronic-actuator-controller
 
-### 🫧 Soft Robot Electro-Actuated Gripper (WIP)
+###  Soft Robot Electro-Actuated Gripper (WIP)
 A soft robot that moves when voltage is induced and attempts a pick operation.
 - Prototype notes, materials, and actuator geometry
 - Experimental plan and metrics for grasp success and repeatability
